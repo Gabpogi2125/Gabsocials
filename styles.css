@@ -1,6 +1,17 @@
-body{
-  padding: 25px;
+.social-links {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
 }
-.title {
-	color: #5C6AC4;
+
+.social-links a {
+  padding: 12px 24px;
+  border: 2px solid #111;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #111;
+  color: #fafafa;
 }
